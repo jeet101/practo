@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <>
       <div className="footermain">
-        <div className="top">
+        <div className="top-footer">
           <div>
             <h5>Practo</h5>
             <p>About</p>

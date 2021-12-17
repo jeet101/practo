@@ -1,0 +1,113 @@
+.Articles-main {
+  width: 85%;
+  margin: 50px auto;
+  
+  display: grid;
+  grid-template-columns: 50% 40%;
+  height: 318px;
+ 
+}
+.Articles-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 58px;
+}
+.Articles1 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin: 10px 0px;
+}
+.Articles2 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Articles-right p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-top: 10px;
+}
+
+.Articles-left {
+  padding-left: 250px;
+}
+
+.Articles-left button {
+  /* Primary/Calm */
+
+  background: #14bef0;
+  border-radius: 5px;
+  width: 182px;
+  height: 48px;
+  border: none;
+  margin-top: 20px;
+
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Articles-left h2 {
+  /* Heading/H2 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Articles-left p {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}

@@ -1,0 +1,18 @@
+.main-container h4 {
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin:10px 10px 10px 0px
+}
+.main-container div{
+  margin-left: 3.5px;
+}

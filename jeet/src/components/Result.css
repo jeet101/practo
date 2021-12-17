@@ -1,0 +1,281 @@
+.contaner_result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+.left {
+  background-color: #ffffff;
+  width: 67%;
+  /* height: 800px; */
+  padding: 20px;
+  padding-left: 64px;
+  padding-top: 32px;
+}
+
+.left h3 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin: 0;
+}
+.left > p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* text-align: center; */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 47px;
+}
+
+.list-card {
+  width: 890px;
+  height: 179px;
+
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+.location-flex {
+  display: flex;
+}
+h6,
+h5,
+h4 {
+  margin: 0px;
+}
+p {
+  padding: 0%;
+}
+.img-div {
+  padding-left: 22px;
+  padding-top: 24px;
+}
+.img-div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.info-div {
+  padding-top: 24px;
+}
+.info-div h4 {
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #18bef0;
+}
+.reating-btn {
+  display: flex;
+}
+.booking-div {
+  padding-top: 45px;
+}
+.booking-button {
+  width: 182px;
+  height: 48px;
+
+  /* Primary/Calm */
+
+  background: #14bef0;
+  border-radius: 5px;
+  border: none;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.video-button {
+  height: 48px;
+  width: 182px;
+
+  border-radius: 5px;
+  border: none;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+  margin-top: 4px;
+}
+.booking-div div {
+  /* Caption/Regular */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-bottom: 10px;
+}
+span {
+  width: 890px;
+  height: 0px;
+
+  /* Neutral/Shade */
+
+  border: 1px solid #efefef;
+}
+.right {
+  background-color: #ffffff;
+  width: 360px;
+  max-height: 284px;
+  margin-right: 25px;
+  display: grid;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: start;
+  justify-items: center;
+}
+.top_text {
+  padding-left: 24px;
+}
+.top_text h4 {
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-bottom: 10px;
+}
+.top_text p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-right: 34px;
+}
+.mid-btn-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 9px;
+}
+.mid-btn-grid button {
+  /* Primary/Calm */
+
+  border: 1px solid #14bef0;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  height: 34px;
+  width: 72px;
+
+  border-radius: 3px;
+
+  /* Caption/Regular */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Bottom-location-btn {
+  display: flex;
+}
+.Bottom-location-btn button {
+  height: 38px;
+  width: 161px;
+
+  border-radius: 5px;
+}
+.btn-2 {
+  background: #14bef0;
+  border: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.btn-1{
+  /* Button/Button */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary/Calm */
+
+color: #14BEF0;
+border: none;
+}

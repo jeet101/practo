@@ -1,0 +1,116 @@
+.ConsultCard-main {
+  margin: auto;
+  width: 85%;
+  /* height: 322px; */
+
+  display: grid;
+
+  grid-template-rows: 20% 80%;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.ConsultCard-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ConsultCard-top h3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.ConsultCard-top p {
+  /* Body/Body 3 */
+  margin-top: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.ConsultCard-top button {
+  height: 48px;
+  width: 182px;
+
+  border-radius: 5px;
+  border: 1px solid #14bef0;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+}
+
+.ConsultCard-bottom {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.ConsultCard-bottom div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ConsultCard-bottom h5{
+  /* Heading/H5 */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+/* Neutral/Charcoal */
+
+color: #2D2D32;
+
+}
+.ConsultCard-bottom p{
+  /* Heading/H6 */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary/Calm */
+
+color: #14BEF0;
+
+}
+

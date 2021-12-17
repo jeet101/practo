@@ -1,15 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-import { Navigation_bar } from './components/Navigation_bar';
-import { Footer } from './components/Footer';
-import { Home } from './components/Home';
+import logo from "./logo.svg";
+import "./App.css";
+import { Navigation_bar } from "./components/Navigation_bar";
+import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { ScarchResult } from "./pages/ScarchResult";
+import { Route, Switch } from "react-router-dom"
+import { FindDr_test } from "./pages/FindDr_test";
+import { Test_profile } from "./pages/Test_profile";
 
 function App() {
   return (
     <>
-   <Home/>
+      {/* <Home /> */}
+     
+      <Switch>
+        <Route exact path="/">
+        <Home />
+        </Route>
+        <Route exact path="/Find Dr">
+          <FindDr_test/>
+        </Route>
+        <Route path="/Scarch">
+        <ScarchResult/>
+        </Route>
+        <Route path="/Profile">
+          <Test_profile/>
+        </Route>
+      </Switch>
     </>
-    
   );
 }
 

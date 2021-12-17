@@ -1,0 +1,140 @@
+.main-search {
+  padding-top: 24px;
+  display: flex;
+
+  justify-content: center;
+
+background-color: white;
+padding-bottom: 40px;
+}
+
+.searchInputs {
+  margin-top: 105px;
+  display: flex;
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  margin: auto;
+}
+.searchInputs2 {
+  margin-top: 105px;
+  display: flex;
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  width: 450px;
+  height: 40px;
+  margin: auto;
+}
+
+.search input {
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 7px;
+  height: 20px;
+  width: 300px;
+  /* Body/Body 3 */
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Neutral/Gray */
+
+color: #787878;
+
+}
+.search2 input {
+  background-color: white;
+  border: 0;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 18px;
+  padding: 7px;
+  height: 20px;
+  width: 300px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+}
+
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  color: #787878;
+ 
+}
+.searchIcon2 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  color: #787878;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+.searchIcon2 svg {
+  font-size: 35px;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+#clearBtn {
+  cursor: pointer;
+}

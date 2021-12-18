@@ -14,6 +14,7 @@
 
 .bannerImg {
   background-image: url("./assets/Banner.png");
+  position: relative;
   /* background-size: cover; */
   height: 488px;
   width: 100%;
@@ -22,6 +23,36 @@
   border-radius: 0px;
   position: relative;
   color: #ffffff;
+}
+.pr-input {
+  margin-top: 200px;
+}
+.pr-input input {
+  width: 280px;
+  height: 46px;
+  outline: none;
+  padding: 10px;
+}
+.pr-input input:nth-child(2) {
+  width: 420px;
+}
+
+.pr-sugg > ul {
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.pr-sugg > ul > li {
+  color: #8d93b3;
+  padding: 5px 15px;
+  margin: 0px 15px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.pr-sugg > ul > li:hover {
+  color: white;
 }
 
 .cont-h1 {

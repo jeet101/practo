@@ -1,0 +1,112 @@
+.login-container {
+  padding-top: 34px;
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 76px;
+  
+}
+.login-right p {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-top: 6px;
+}
+.login-right h3 {
+  /* Heading/H3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+
+.login-right input {
+  /* Heading/H3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  height: 34px;
+  width: 376px;
+
+  border-radius: 3px;
+
+  margin-top: 14px;
+  margin-bottom: 22px;
+  padding-left: 10px;
+  
+}
+.login-right button {
+  height: 32px;
+  width: 376px;
+  background: #14bef0;
+  border-radius: 5px;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  border: none;
+  margin-top: 36px;
+}
+
+.h5-login{ 
+  /* Heading/H5 */
+
+font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Primary/Calm */
+
+color: #14BEF0;
+margin-top: 38px;
+margin-left: 315px;
+
+}

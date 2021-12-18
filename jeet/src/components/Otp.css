@@ -1,0 +1,147 @@
+.Otp-main {
+  width: 408px;
+  height: 288px;
+
+  background: #ffffff;
+  border-radius: 5px;
+  padding-top: 16px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.number-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 13px;
+}
+.number-icon img {
+  height: 12px;
+  width: 12.001666069030762px;
+
+  border-radius: 0px;
+  padding-top: 4px;
+  padding-bottom: 32px;
+}
+.Otp-main > h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-bottom: 12px;
+}
+.number-icon > h5 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Otp-main > p {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.resendOTP {
+  display: flex;
+  flex-direction: row;
+  gap: 148px;
+  padding-top: 8px;
+}
+
+.resendOTP > div {
+  display: flex;
+  flex-direction: row;
+}
+.resendOTP > div > p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.resendOTP > div > h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+}
+.resendOTP > h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+}
+.Otp-main > button {
+  height: 32px;
+  width: 407px;
+  background: #14bef0;
+  border-radius: 5px;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-top:40px;
+  border: none;
+}

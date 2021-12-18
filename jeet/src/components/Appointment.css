@@ -1,0 +1,223 @@
+.Appointment-main {
+  width: 408px;
+  height: 392px;
+
+  background: #ffffff;
+  /* Neutral/Shade */
+
+  border: 1px solid #310505;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  display: grid;
+  grid-template-columns: 48px, 70px, 132px, 142px;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+  padding-right: 16px;
+}
+
+.Appointment-main > div {
+  border-bottom:1px solid #efefef;
+  padding-bottom: 10px;
+}
+.Appointment-1st {
+  display: flex;
+}
+.Appointment-1st h4 {
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-left: 11px;
+}
+.Appointment-2nd {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+.Appointment-date {
+  display: flex;
+  flex-direction: column;
+}
+.Appointment-flex-date {
+  display: flex;
+  gap: 11px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Appointment-flex-date h6 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Appointment-flex-date h5 {
+  font-family: Arial;
+  /* font-style: normal;
+  font-weight: normal; */
+  font-size: 20px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Appointment-2nd h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+}
+
+.time-flex-jb {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  gap: 10px;
+}
+.time-flex-jb img {
+  height: 20px;
+  width: 20px;
+}
+.time-flex-jb h5 {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Appointment-3nd {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  gap: 12px;
+}
+.Appointment-3nd h5 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 5px;
+}
+.Appointment-3nd p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 4px;
+}
+
+.Appointment-4 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  gap: 12px;
+}
+.Appointment-4 h5 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 5px;
+}
+.Appointment-4 p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 4px;
+}
+
+.Appointment-4 h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+}

@@ -1,9 +1,12 @@
 import "./Result.css";
 import { Dr_data } from "../data/Dr_data";
 import FAQ_card from "../img/FAQ_card.png";
-import { Link } from "react-router-dom";
-
+import { Link, useHistory } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 export const Result = () => {
+  const history = useHistory();
+  const {handelClick} = useContext(AuthContext);
   return (
     <div>
       <div className="contaner_result">
@@ -16,7 +19,7 @@ export const Result = () => {
           </div>
           <div className="list">
             {Dr_data.map((data) => (
-              <>
+              <div  key={data.id}>
                 {" "}
                 <div className="list-card">
                   <div className="img-div">
@@ -40,16 +43,22 @@ export const Result = () => {
                     <div>
                       <p>Available Tomorrow</p>
                     </div>
-                    <Link to="/Profile">
-                      <button className="booking-button">
-                        Book Appointment No Booking Fee
-                      </button>
-                    </Link>
+
+                    <button
+                      className="booking-button"
+                      onClick={() => {
+                        handelClick(data.id)
+                        history.push("/Profile");
+                      }}
+                    >
+                      Book Appointment No Booking Fee
+                    </button>
+
                     <button className="video-button">Video Consult</button>
                   </div>
                 </div>
                 <span></span>
-              </>
+              </div>
             ))}
           </div>
           <div>

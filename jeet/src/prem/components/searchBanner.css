@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.bannerImg {
+  background-image: url("./assets/Banner.png");
+  /* background-size: cover; */
+  height: 488px;
+  width: 100%;
+  margin-left: -1.5px;
+  margin-top: 0.11px;
+  border-radius: 0px;
+  position: relative;
+  color: #ffffff;
+}
+
+.cont-h1 {
+  position: absolute;
+  top: 40px;
+  margin-left: 520px;
+  margin-top: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.suggesions {
+  height: 80px;
+  padding: 17px 0px;
+  text-align: center;
+  background-color: #1d2869;
+}
+.list-1-full-width {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  min-height: 650px;
+  height: calc(100vh - 102px);
+  text-align: left;
+
+  color: #414146;
+}
+.list-1-container {
+  display: grid;
+  grid-template-rows: 70% 30%;
+  padding: 0 100px;
+  margin-top: 81px;
+}
+.list-1-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  width: 1349px;
+  height: 450px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.list-1-leftPart {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 100px;
+}
+.list-1-leftPart6 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.list-1-left-title {
+  width: 446px;
+  color: #2d2d32;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.h2-inline {
+  display: inline;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 46px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.h2-bold {
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 40px;
+  color: #414146;
+}
+.list-1-rightPart {
+  width: 50%;
+
+  margin-left: 150px;
+}
+.content-list {
+  margin-top: 12px;
+  margin-left: 1%;
+}
+.content-list li {
+  padding: 5px;
+  margin-top: 8px;
+}
+.content-list img {
+  width: 17.6px;
+  height: 13.4px;
+}
+.content-list span {
+  line-height: 16.1px;
+  size: 14px;
+  padding-left: 11px;
+  font-weight: 400;
+}
+.list-btn {
+  margin-top: 28px;
+}
+.list-btn-play {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+}
+.list-btn-play div:nth-child(2) {
+  margin-left: 34px;
+}
+.list-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.list-btn > button {
+  width: 182px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #14bef0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16.1px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+.row-list {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 0;
+}
+.row-content {
+  text-align: center;
+  width: 105px;
+  height: 65px;
+  padding: 5px;
+}
+.sec-row {
+  width: auto;
+}
+.para {
+  margin-top: 87px;
+}
+.para > p {
+  color: #787878;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.1px;
+}
+.sec-row-list {
+  width: 80%;
+  margin-top: 0 auto;
+  margin-top: 150px;
+}
+.sec-row-list6 {
+  width: 80%;
+  margin-top: 0 auto;
+  margin-top: 100px;
+}
+.dot {
+  margin-left: 24px;
+}
+.dot > span {
+  margin-left: 8px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 13.8px;
+}
+.dot bold {
+  font-weight: 700;
+}
+/* .dot img {
+  margin-left: 24px;
+} */
+
+.dark-white {
+  background-color: #f0f0f5;
+}
+.light-white {
+  background-color: #ffffff;
+}
+.flags {
+  background-color: #f0f0f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 0;
+}
+.flag-cont {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f0f0f5;
+  margin-bottom: 0px;
+}
+.fl-ele {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 15px;
+}
+.fl-img {
+  width: 40px;
+  height: 30px;
+}
+.fl-img > img {
+  width: 100%;
+  height: 100%;
+}

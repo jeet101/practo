@@ -1,0 +1,47 @@
+.footermain {
+  margin: 0%;
+  padding: 0%;
+  height: 480px;
+
+  /* Primary/Azure */
+
+  background: #2a348c;
+  border: 1px solid black;
+
+  display: grid;
+  grid-template-rows: 70% 30%;
+}
+.top {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-items: center;
+}
+.top div > p {
+  margin: 1%;
+  padding: 1%;
+  color: #ffffff;
+  font-size: 14px;
+}
+.top h4 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 16.1px;
+}
+.bottom {
+  margin: auto;
+  padding: 0%;
+
+  text-align: center;
+}
+.bottom h4 {
+  font-size: 14px;
+  color: #ffffff;
+}
+.logo-img_f {
+  height: 50px;
+  width: 200px;
+
+  border-radius: 0px;
+}

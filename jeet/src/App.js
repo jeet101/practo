@@ -8,6 +8,7 @@ import { Route, Switch } from "react-router-dom"
 import { FindDr_test } from "./pages/FindDr_test";
 import { Test_profile } from "./pages/Test_profile";
 import { Login } from "./pages/Login";
+import { PatientDetails } from "./pages/PatientDetails";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/Login">
           <Login/>
+        </Route>
+        <Route path="/PatientDetails">
+          <PatientDetails/>
         </Route>
       </Switch>
     </>

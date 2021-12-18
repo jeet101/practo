@@ -1,0 +1,147 @@
+.radio-group {
+  height: 34px;
+  width: 376px;
+
+  border: 1px solid #787878;
+  background: #ffffff;
+  /* Neutral/Gray */
+
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-left: 8px;
+}
+
+.radio-group2 {
+  padding-left: 8px;
+  height: 34px;
+  width: 376px;
+  border-bottom: 1px solid #787878;
+  border-left: 1px solid #787878;
+  border-right: 1px solid #787878;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 6px;
+}
+label {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-left: 18px;
+}
+.Patient-form-main h5 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-top: 24px;
+}
+.radio-payment1 {
+  height: 50px;
+  width: 376px;
+
+  border: 1px solid #787878;
+  background: #ffffff;
+  /* Neutral/Gray */
+
+  box-sizing: border-box;
+  border-radius: 3px;
+ 
+  padding-left: 8px;
+  display: flex;
+  gap:15px
+ 
+}
+
+.radio-payment1 p {
+  text-align: initial;
+  padding-left: 40px;
+}
+
+.radio-payment1 label{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-left: 18px; 
+  
+}
+
+.radio-payment1 input{
+  padding-top: 12px;
+  margin-top: 19px;
+}
+.radio-payment1 h6{
+  font-family: Arial;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+/* Neutral/Charcoal */
+
+color: #2D2D32;
+}
+
+.radio-payment1 p{
+  /* Body/Body 4 */
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+/* Neutral/Charcoal */
+
+color: #2D2D32;
+padding-left: 0px;
+padding-top: 4px;
+
+}
+.radio-payment1 div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.adio-payment1:hover{
+  background: #241e1e;
+/* DS/Drop Shadow 1 */
+
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+}

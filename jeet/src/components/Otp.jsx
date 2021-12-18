@@ -4,10 +4,12 @@ import Box from "@material-ui/core/Box";
 import TextField from "@material-ui/core/TextField";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
+import { useHistory } from "react-router-dom";
 
 export const Otp = () => {
+  const history = useHistory();
   const { otpStatus, otp } = useContext(AuthContext);
-  
+
   return (
     <div className="Otp-main">
       <h6>We have sent an OTP on</h6>
@@ -38,7 +40,13 @@ export const Otp = () => {
         </div>
         <h6>Resend OTP</h6>
       </div>
-      <button >Continue to booking</button>
+      <button
+        onClick={() => {
+          history.push("/PatientDetails");
+        }}
+      >
+        Continue to booking
+      </button>
     </div>
   );
 };

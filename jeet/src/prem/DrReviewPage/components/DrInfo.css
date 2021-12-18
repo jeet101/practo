@@ -5,70 +5,70 @@
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
 }
-.main {
+.pr-main {
   background-color: #f0f0f5;
 }
-.container {
+.pr-container {
   margin-left: 100px;
   margin-right: 100px;
 }
 
-.path > ul {
+.pr-path > ul {
   display: flex;
   justify-content: flex-start;
   padding: 5px;
   font-weight: 400;
 }
-.path > ul > li {
+.pr-path > ul > li {
   text-align: center;
   color: #2d2d32;
   font-size: 12px;
   margin: 0 5px;
 }
-.first-row {
+.pr-first-row {
   display: grid;
   grid-template-columns: auto auto;
 }
-.dr-card {
+.pr-dr-card {
   width: 740px;
   height: 275px;
   background-color: #ffffff;
 }
-.video-consult {
+.pr-video-consult {
   width: 355px;
   height: 310px;
   background-color: #ffffff;
 }
-.dr-card {
+.pr-dr-card {
   display: grid;
   grid-template-columns: 20% 80%;
 }
-.dr-img {
+.pr-dr-img {
   width: 100px;
   height: 100%;
   margin: 15px;
 }
-.dr-img > img {
+.pr-dr-img > img {
   width: 100%;
 }
-.dr-info {
+.pr-dr-info {
   text-align: left;
   padding: 10px 0px;
 }
 
-.dr-title > h3 > span {
+.pr-dr-title > h3 > span {
   font-size: 12px;
   line-height: 14px;
   color: #787878;
 }
-.dr-title p {
+.pr-dr-title p {
   color: #2d2d32;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.1px;
   padding: 3px;
 }
-.verified {
+.pr-verified {
   margin-top: 10px;
   color: #2d2d32;
   font-weight: 400;
@@ -76,23 +76,23 @@
   line-height: 16.1px;
   text-align: left;
 }
-.verified span {
+.pr-verified span {
   margin-left: 5px;
   margin-bottom: 5px;
 }
-.green {
+.pr-green {
   color: green;
   font-size: 14px;
   font-weight: 700;
   line-height: 16.1px;
 }
-.verified p {
+.pr-verified p {
   margin: 15px 0px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
 }
-.blue {
+.pr-blue {
   color: #14bef0;
   font-size: 12px;
   line-height: 14px;
@@ -101,28 +101,28 @@
   text-align: right;
   margin-right: 15px;
 }
-.video-1row {
+.pr-video-1row {
   padding: 10px;
   border-bottom: 1px solid #efefef;
 }
-.video-price {
+.pr-video-price {
   display: flex;
   justify-content: space-around;
 }
-.video-price p {
+.pr-video-price p {
   font-size: 10px;
   font-weight: 400;
   line-height: 11.5px;
   color: #2d2d32;
 }
-.No-slot {
+.pr-No-slot {
   color: red;
 }
-.blue-text {
+.pr-blue-text {
   color: #14bef0;
   margin: 10px;
 }
-.book-btn > button {
+.pr-book-btn > button {
   background-color: #199fd9;
   width: 230px;
 
@@ -133,6 +133,6 @@
   border-radius: 5px;
   color: #ffffff;
 }
-.bottom {
+.pr-bottom {
   float: left;
 }

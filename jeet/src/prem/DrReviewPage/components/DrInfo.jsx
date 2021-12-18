@@ -11,9 +11,9 @@ import {Footer} from "../../components/Footer.jsx"
 export const DrInfo = () => {
     return (
         <div>
-            <div className="main">
-                <div className="container">
-                    <div className="path">
+            <div className="pr-main">
+                <div className="pr-container">
+                    <div className="pr-path">
                         <ul>
                             <li>Home</li>
                             <li>
@@ -42,23 +42,23 @@ export const DrInfo = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="first-row">
-                        <div className="dr-card">
-                            <div className="dr-img">
+                    <div className="pr-first-row">
+                        <div className="pr-dr-card">
+                            <div className="pr-dr-img">
                                 <img src={Dr_image} alt="" />
                             </div>
-                            <div className="dr-info">
-                                <div className="dr-title">
+                            <div className="pr-dr-info">
+                                <div className="pr-dr-title">
                                     <h3>Dr. Sheelavathi Natraj <span> Profile is claimed</span></h3>
                                     <p>MBBS, DDVL</p>
                                     <p>Dermatologist, Cosmetologist</p>
                                     <p>17 Years Experience Overall (7 years as a specialist)</p>
-                                    <div className="verified">
+                                    <div className="pr-verified">
                                         <img src={verified} alt="" />
                                         <span>Medical Registration Verified</span>
-                                        <div className="verified">
+                                        <div className="pr-verified">
                                         <img src={thumbs_up} alt="" />
-                                        <span className="green">94%</span>
+                                        <span className="pr-green">94%</span>
                                             <span>(1197 votes)</span>
                                             <p>Dr, Sheelavathi carries an experience of a decade in the field of cosmetology. Doctor also specializes
 in treating hair treatments, skin treatments and STD. more..</p>
@@ -68,46 +68,46 @@ in treating hair treatments, skin treatments and STD. more..</p>
                                     
                                 
                                 </div>
-                                <p className="blue">Share your Story</p>
+                                <p className="pr-blue">Share your Story</p>
                             </div>
                         </div>
-                        <div className="video-consult">
-                            <div className="video-1row">
-                                <div className="video-price">
+                        <div className="pr-video-consult">
+                            <div className="pr-video-1row">
+                                <div className="pr-video-price">
                                     <div><img src={camera} alt="" /></div>
                                     <div><h6>VIDEO CONSULTATION</h6></div>
                                     <div><h4>Rs 600</h4></div>
                                 </div>
                             </div>
-                            <div className="video-1row">
-                                <div className="video-price">
+                            <div className="pr-video-1row">
+                                <div className="pr-video-price">
                                     <div><img src={l_arrow} alt="" /></div>
                                     <div><p>30th Nov to 5th Dec</p>
                                     <p >No Slots available</p>
                                     </div>
                                     <div><p>Mon, 6 Dec</p>
-                                    <p className="No-slot">20 slots available</p>
+                                    <p className="pr-No-slot">20 slots available</p>
                                     </div>
                                     <div><p>Mon, 7 Dec</p>
-                                    <p className="No-slot">20 Slots available</p>
+                                    <p className="pr-No-slot">20 Slots available</p>
                                     </div>
                                     <div>
                                         <img src={r_arrow} alt="" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="slot-img">
+                            <div className="pr-slot-img">
                                 <img src={Dr_image} alt="" />
                             </div>
-                            <div className="blue-text">
+                            <div className="pr-blue-text">
                                 Slots Available
                             </div>
-                            <div className="book-btn">
+                            <div className="pr-book-btn">
                                 <button>Book Appointment</button>
                             </div>
                             
                         </div>
-                        <div className="bottom">
+                        <div className="pr-bottom">
                         <img src={bottomRev} alt="" />
                     </div>
                     </div>

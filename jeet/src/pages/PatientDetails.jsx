@@ -9,6 +9,7 @@ export const PatientDetails=()=>{
  
   return <div className="patient-details-main">
     <Navbar2/>
+    <div></div>
     <Appointment/>
     <PatinetForm/>
   </div>

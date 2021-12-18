@@ -7,7 +7,8 @@ import row1 from "./assets/B-row1.png"
 import row2 from "./assets/B-row2.png"
 import row3 from "./assets/B-row3.png"
 import row4 from "./assets/B-row4.png"
-// import SearchBar from "./SearchBar.jsx"
+import  SearchBar  from "../../components/SearchBar";
+import { Link } from "react-router-dom"
 export const SerachBanner = () => {
     return (
         <div className="dark-white">
@@ -15,10 +16,11 @@ export const SerachBanner = () => {
                 <div className="bannerImg">
                     <div className="cont-h1">
                         <h1>Your home for health</h1>
-                        <h4>Find and Book</h4>
+                        <Link to="/Scarch"> <h4>Find and Book</h4> </Link>
+                        
                     </div>
                     <div>
-                        {/* <SearchBar/> */}
+                        <SearchBar/>
                     </div>
                     
 

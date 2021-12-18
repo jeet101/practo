@@ -9,6 +9,8 @@ import { FindDr_test } from "./pages/FindDr_test";
 import { Test_profile } from "./pages/Test_profile";
 import { Login } from "./pages/Login";
 import { PatientDetails } from "./pages/PatientDetails";
+import { DrInfo } from "./prem/DrReviewPage/components/DrInfo";
+import  DrConsultPage from "./prem/components/DrConsultPage";
 
 function App() {
   return (
@@ -20,13 +22,13 @@ function App() {
         <Home />
         </Route>
         <Route exact path="/Find Dr">
-          <FindDr_test/>
+        <DrConsultPage/>
         </Route>
         <Route path="/Scarch">
         <ScarchResult/>
         </Route>
         <Route path="/Profile">
-          <Test_profile/>
+        <DrInfo/>
         </Route>
         <Route path="/Login">
           <Login/>
@@ -35,6 +37,8 @@ function App() {
           <PatientDetails/>
         </Route>
       </Switch>
+      {/* <DrConsultPage/> */}
+      {/* <DrInfo/> */}
     </>
   );
 }

@@ -11,7 +11,10 @@ import { Footer } from "../../components/Footer.jsx";
 import { Navigation_bar } from "../../../components/Navigation_bar";
 import SearchBar from "../../../components/SearchBar";
 import { useHistory } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../../context/AuthContext";
 export const DrInfo = () => {
+    const {newData} = useContext(AuthContext)
   const history = useHistory();
   return (
     <div>
@@ -37,31 +40,31 @@ export const DrInfo = () => {
               <li>
                 <img src={Arrow} alt="" />
               </li>
-              <li>Dr. Sheelvanthi Natraj.</li>
+              <li>{newData[0].name}</li>
             </ul>
           </div>
           <div className="pr-first-row">
             <div className="pr-dr-card">
               <div className="pr-dr-img">
-                <img src={Dr_image} alt="" />
+                <img src={newData[0].img} alt="DrImg" />
               </div>
               <div className="pr-dr-info">
                 <div className="pr-dr-title">
                   <h3>
-                    Dr. Sheelavathi Natraj <span> Profile is claimed</span>
+                  {newData[0].name} <span> Profile is claimed</span>
                   </h3>
                   <p>MBBS, DDVL</p>
                   <p>Dermatologist, Cosmetologist</p>
-                  <p>17 Years Experience Overall (7 years as a specialist)</p>
+                  <p>{newData[0].exprence} Years Experience Overall (7 years as a specialist)</p>
                   <div className="pr-verified">
                     <img src={verified} alt="" />
                     <span>Medical Registration Verified</span>
                     <div className="pr-verified">
                       <img src={thumbs_up} alt="" />
-                      <span className="pr-green">94%</span>
+                      <span className="pr-green">{newData[0].rateing}</span>
                       <span>(1197 votes)</span>
                       <p>
-                        Dr, Sheelavathi carries an experience of a decade in the
+                      {newData[0].name} carries an experience of a decade in the
                         field of cosmetology. Doctor also specializes in
                         treating hair treatments, skin treatments and STD.
                         more..
@@ -110,7 +113,7 @@ export const DrInfo = () => {
               </div>
               <div className="pr-slot-jb">
                 <div className="pr-slot-img">
-                  <img src={Dr_image} alt="" />
+                  <img src={newData[0].img} alt="" />
                 </div>
                 <div className="pr-blue-text">Slots Available</div>
                 <div className="pr-book-btn">

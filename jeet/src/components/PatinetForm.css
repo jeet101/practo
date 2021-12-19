@@ -55,6 +55,7 @@ label {
 
   color: #2d2d32;
   padding-top: 24px;
+  padding-bottom: 16px;
 }
 .radio-payment1 {
   height: 50px;
@@ -66,11 +67,11 @@ label {
 
   box-sizing: border-box;
   border-radius: 3px;
- 
+
   padding-left: 8px;
   display: flex;
-  gap:15px
- 
+  gap: 15px;
+  margin-bottom: 24px;
 }
 
 .radio-payment1 p {
@@ -78,7 +79,7 @@ label {
   padding-left: 40px;
 }
 
-.radio-payment1 label{
+.radio-payment1 label {
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
@@ -91,30 +92,174 @@ label {
   /* Neutral/Charcoal */
 
   color: #2d2d32;
-  padding-left: 18px; 
-  
+  padding-left: 18px;
 }
 
-.radio-payment1 input{
+.radio-payment1 input {
   padding-top: 12px;
   margin-top: 19px;
 }
-.radio-payment1 h6{
+.radio-payment1 h6 {
   font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-/* Neutral/Charcoal */
+  /* Neutral/Charcoal */
 
-color: #2D2D32;
+  color: #2d2d32;
 }
 
-.radio-payment1 p{
+.radio-payment1 p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-left: 0px;
+  padding-top: 4px;
+}
+.radio-payment1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.adio-payment1:hover {
+  background: #241e1e;
+  /* DS/Drop Shadow 1 */
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+.Patient-form-main {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+.Patient-form-main > h3 {
+  /* Heading/H3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  padding-bottom: 34px;
+}
+.form-data > label {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #000000;
+  padding: 0px;
+}
+.form-data > input {
+  width: 376px;
+  height: 34px;
+
+  background: #ffffff;
+  /* Neutral/Gray */
+
+  border: 1px solid #787878;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+.whatsAppChackBox {
+  display: flex;
+  gap: 16px;
+}
+.whatsAppChackBox p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+Patient-form-main > h5 {
+  /* Heading/H5 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.Patient-form-main > button {
+  width: 376px;
+  height: 32px;
+border:none;
+  /* Primary/Calm */
+
+  background: #14bef0;
+  border-radius: 5px;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.Patient-form-main >p{
   /* Body/Body 4 */
 
 font-family: Arial;
@@ -122,26 +267,13 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 14px;
-/* identical to box height */
-
 
 /* Neutral/Charcoal */
 
 color: #2D2D32;
-padding-left: 0px;
-padding-top: 4px;
-
+margin-bottom: 8px;
 }
-.radio-payment1 div{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.adio-payment1:hover{
-  background: #241e1e;
-/* DS/Drop Shadow 1 */
-
-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-border-radius: 3px;
+.Patient-form-main >img{
+  width: 360px;
+height: 28px;
 }

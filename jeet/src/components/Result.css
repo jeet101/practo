@@ -25,6 +25,7 @@
 
   color: #2d2d32;
   margin: 0;
+  margin-bottom: 10px;
 }
 .left > p {
   font-family: Arial;
@@ -91,9 +92,76 @@ p {
   /* identical to box height */
 
   color: #18bef0;
+  margin-bottom: 6px;
+}
+.info-div p {
+  /* Heading/H4 */
+
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* text-align: center; */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 10px;
+}
+.info-div h6 {
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* text-align: center; */
+
+  /* Neutral/Gray */
+
+  color: #787878;
+  margin-bottom: 8px;
 }
 .reating-btn {
   display: flex;
+  margin-top: 22px;
+}
+.reating-btn button {
+  height: 20px;
+  width: 58px;
+  left: 0px;
+  top: 0px;
+  border-radius: 3px;
+  background: #00a500;
+  /* Heading/H6 */
+
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Snowy */
+
+  color: #ffffff;
+  border: none;
+  margin-right: 12px;
+}
+.reating-btn button > img {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
 }
 .booking-div {
   padding-top: 45px;
@@ -119,6 +187,8 @@ p {
   text-align: center;
 
   color: #ffffff;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .video-button {
   height: 48px;
@@ -239,6 +309,10 @@ span {
 
   color: #2d2d32;
 }
+.mid-btn-grid button:hover {
+  background: #14bef0;
+  color: white;
+}
 .Bottom-location-btn {
   display: flex;
 }
@@ -262,20 +336,20 @@ span {
 
   color: #ffffff;
 }
-.btn-1{
+.btn-1 {
   /* Button/Button */
 
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-/* Primary/Calm */
+  /* Primary/Calm */
 
-color: #14BEF0;
-border: none;
+  color: #14bef0;
+  border: none;
 }

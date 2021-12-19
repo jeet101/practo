@@ -1,0 +1,142 @@
+.booked-j {
+  background: #e5e5e5;
+}
+.booked-j > img {
+  width: 100%;
+}
+.booked-main-j {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 76px;
+  margin-bottom: 72px;
+}
+.booked-1st-j {
+  display: flex;
+  gap: 10px;
+
+  /* Heading/H3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.booked-1st-j img{
+  height: 24px;
+width: 24px;
+
+margin-top: 2px;
+
+}
+.booked-2nd-j p {
+  /* Body/Body 3 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-bottom: 8px;
+}
+
+.booked-right-j {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+.booked-main-j > img {
+  width: 448px;
+  height: 255px;
+}
+.pacintDe-jb p {
+  /* Body/Body 4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-bottom: 4px;
+}
+.pacintDe-jb h6 {
+  /* Heading/H6 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+  margin-bottom: 8px;
+}
+.booked-last-jb button:nth-child(1) {
+  width: 182px;
+  height: 48px;
+
+  /* Primary/Calm */
+
+  background: #14bef0;
+  border-radius: 5px;
+
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+  border:none
+}
+.booked-last-jb button:nth-child(2) {
+  height: 48px;
+  width: 182px;
+
+  border-radius: 5px;
+  /* Button/Button */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Primary/Calm */
+
+  color: #14bef0;
+  border:none
+}
+.booked-last-jb {
+  display: flex;
+  gap: 32px;
+}

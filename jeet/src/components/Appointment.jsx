@@ -35,7 +35,7 @@ export const Appointment = () => {
             <img src={newData[0].img} />
           </div>
           <div style={{paddingTop:5}}>
-            <h5>Dr. Sheelavathi Nataraj</h5>
+        <h5>{newData[0].name}</h5>
             <p>MBBS, DDVL</p>
             <p>Dermatologist, Cosmetologist</p>
           </div>

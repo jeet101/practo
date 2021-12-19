@@ -1,0 +1,121 @@
+.payment-main-jb {
+  background: #e5e5e5;
+  height: 900px;
+}
+.paymant_card {
+  width: 734px;
+  height: 474px;
+
+  background: #ffffff;
+  margin: auto;
+  margin-top: 48px;
+}
+
+.payment-options-flex1 {
+  display: flex;
+}
+.payment-options-left {
+  width: 260px;
+  height: 80px;
+
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+}
+.payment-options-right {
+  width: 474px;
+  height: 80px;
+  left: 264px;
+  top: 0px;
+
+  /* Primary/Azure */
+
+  background: #2a348c;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  /* Heading/H4 */
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.payment-options-right h4 {
+  padding-left: 7px;
+}
+
+.button {
+  background: blueviolet;
+  padding: 1em;
+  color: rgb(12, 12, 12);
+  border: 1px solid #f8f8fb;
+  /* margin: 3px; */
+
+  outline: none;
+  display: flex;
+
+  /* flex-direction: row;
+  align-items: center;
+  padding: 8px 190px 8px 29px; */
+
+  /* position: absolute; */
+  width: 260px;
+  height: 37px;
+
+  background: #ffffff;
+  align-items: center;
+}
+
+.button.toggled {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  /* Neutral/Charcoal */
+
+  color: #2d2d32;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 0px 10px; */
+  /* Neutral/Shy */
+
+  background: #f8f8fb;
+  box-shadow: -4px 0px 0px #14bef0;
+}
+
+.payment-options-2nd{
+  display: grid;
+  grid-template-columns: 264px 460px;
+}
+.payment-options-logo{
+  display: flex;
+  justify-content: center;
+}

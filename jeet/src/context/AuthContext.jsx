@@ -7,8 +7,13 @@ export const AuthContextProvider = ({ children }) => {
   const [id, setId] = useState("");
   const [number, setNumber] = useState();
   const [newData, setNewData] = useState();
+  const [name, setName] = useState("");
   const [otpStatus, setOtpStatus] = useState(false);
   const [otp, setOTP] = useState();
+  const[payOption,setPayOption] = useState(true)
+  const handelName = (n) => {
+    setName(n);
+  };
   const handelAuthNumber = (no) => {
     if (no.length === 10) {
       setNumber(no);
@@ -25,6 +30,9 @@ export const AuthContextProvider = ({ children }) => {
     console.log(id);
     setNewData(Dr_data.filter((data) => data.id == e));
   };
+  const handelPayOption = ()=>{
+setPayOption(!payOption);
+  }
   return (
     <AuthContext.Provider
       value={{
@@ -35,6 +43,10 @@ export const AuthContextProvider = ({ children }) => {
         handelAuthNumber,
         otpStatus,
         otp,
+        handelName,
+        name,
+        payOption,
+        handelPayOption,
       }}
     >
       {children}

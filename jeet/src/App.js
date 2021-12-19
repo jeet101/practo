@@ -11,6 +11,8 @@ import { Login } from "./pages/Login";
 import { PatientDetails } from "./pages/PatientDetails";
 import { DrInfo } from "./prem/DrReviewPage/components/DrInfo";
 import  DrConsultPage from "./prem/components/DrConsultPage";
+import { Payment } from "./pages/Payment";
+import { Booked } from "./pages/Booked";
 
 function App() {
   return (
@@ -36,9 +38,16 @@ function App() {
         <Route path="/PatientDetails">
           <PatientDetails/>
         </Route>
+        <Route path="/Payment">
+          <Payment/>
+        </Route>
+        <Route path="/Booked">
+         <Booked/>
+        </Route>
       </Switch>
       {/* <DrConsultPage/> */}
       {/* <DrInfo/> */}
+      {/* <Booked/> */}
     </>
   );
 }

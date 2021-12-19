@@ -1,6 +1,6 @@
 .patient-details-main {
   background-color: rgb(239, 239, 239);
-  height: 620px;
+  height: 995px;;
 }
 .patient-details-items{
   padding-top: 34px;
@@ -10,4 +10,12 @@
   grid-gap: 76px;
   gap: 76px;
 
+}
+.patient-details-container-jb{
+  padding-top: 34px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  grid-gap: 76px;
+  gap: 76px;
 }

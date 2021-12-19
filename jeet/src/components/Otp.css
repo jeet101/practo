@@ -69,7 +69,7 @@
 .resendOTP {
   display: flex;
   flex-direction: row;
-  gap: 148px;
+  gap: 118px;
   padding-top: 8px;
 }
 
@@ -127,7 +127,7 @@
 }
 .Otp-main > button {
   height: 32px;
-  width: 407px;
+  width: 377px;
   background: #14bef0;
   border-radius: 5px;
   /* Button/Button */
@@ -144,4 +144,14 @@
   color: #ffffff;
   margin-top:40px;
   border: none;
+}
+.Otp-main input{
+  width: 200px;
+}
+
+
+
+label + .MuiInput-formControl {
+    margin-top: 16px;
+    width: 376px;
 }

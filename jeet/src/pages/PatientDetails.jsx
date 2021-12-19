@@ -9,8 +9,10 @@ export const PatientDetails=()=>{
  
   return <div className="patient-details-main">
     <Navbar2/>
-    <div></div>
+    <div className = "patient-details-container-jb">
     <Appointment/>
     <PatinetForm/>
+    </div>
+    
   </div>
 }

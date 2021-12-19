@@ -4,6 +4,7 @@ import FAQ_card from "../img/FAQ_card.png";
 import { Link, useHistory } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
+import Likes from "../data/Dr_imgs/Likes.png";
 export const Result = () => {
   const history = useHistory();
   const {handelClick} = useContext(AuthContext);
@@ -35,7 +36,7 @@ export const Result = () => {
                     </div>
                     <p>{data.fee} Consultation fee at clinic </p>
                     <div className="reating-btn">
-                      <button>{data.rateing}</button>
+                      <button><img src={Likes}/>{data.rateing}</button>
                       <h5>{data.stories} Patient Stories </h5>
                     </div>
                   </div>
@@ -72,10 +73,10 @@ export const Result = () => {
           </div>
           <div className="mid-btn-grid">
             <button>JP Nagar</button>
-            <button>JP Nagar</button>
-            <button>JP Nagar</button>
-            <button>JP Nagar</button>
-            <button>JP Nagar</button>
+            <button>Indiranagar</button>
+            <button>Hsr Layout</button>
+            <button>Whitefield</button>
+            <button>Vijaynagar</button>
           </div>
           <div className="Bottom-location-btn">
             <button className="btn-1">Search Location</button>

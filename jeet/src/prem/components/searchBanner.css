@@ -26,6 +26,9 @@
 }
 .pr-input {
   margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .pr-input input {
   width: 280px;

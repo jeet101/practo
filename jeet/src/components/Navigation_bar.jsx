@@ -7,29 +7,35 @@ export const Navigation_bar = () => {
     <>
       <div className="main">
         <div className="lift">
-          <img src={logo} className="logo-img" />
+          <Link to="/">
+           
+            <img src={logo} className="logo-img" />
+          </Link>
         </div>
         <div className="mid">
           <div>
-            <Link to="/Find Dr"> <h5>Find Doctors</h5></Link>
-           
+            <Link to="/Find Dr">
+              {" "}
+              <h5>Find Doctors</h5>
+            </Link>
+
             <p>Book an appointment</p>
           </div>
           <div>
-            <h5>Find Doctors</h5>
-            <p>Book an appointment</p>
+            <h5>Video Consult</h5>
+            <p>Consult top doctors</p>
           </div>
           <div>
-            <h5>Find Doctors</h5>
-            <p>Book an appointment</p>
+            <h5>Medicines</h5>
+            <p>Practo pharmacy</p>
           </div>
           <div>
-            <h5>Find Doctors</h5>
-            <p>Book an appointment</p>
+            <h5>Lab Tests</h5>
+            <p>Book tests & checkup</p>
           </div>
           <div>
-            <h5>Find Doctors</h5>
-            <p>Book an appointment</p>
+            <h5>Surgeries</h5>
+            <p>Expert surgical care</p>
           </div>
           <div id="providers">
             <p>
@@ -38,7 +44,7 @@ export const Navigation_bar = () => {
           </div>
           <div>
             <p>
-              For Providers <img src={vector} />
+            Security & Help <img src={vector} />
             </p>
           </div>
         </div>

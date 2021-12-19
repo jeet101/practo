@@ -81,36 +81,34 @@
   align-items: center;
   text-align: center;
 }
-.ConsultCard-bottom h5{
+.ConsultCard-bottom h5 {
   /* Heading/H5 */
 
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 16px;
-text-align: center;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
 
-/* Neutral/Charcoal */
+  /* Neutral/Charcoal */
 
-color: #2D2D32;
-
+  color: #2d2d32;
+  padding: 20px;
 }
-.ConsultCard-bottom p{
+.ConsultCard-bottom p {
   /* Heading/H6 */
 
-font-family: Arial;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-/* Primary/Calm */
+  /* Primary/Calm */
 
-color: #14BEF0;
-
+  color: #14bef0;
 }
-

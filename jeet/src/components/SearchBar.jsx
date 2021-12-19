@@ -60,7 +60,7 @@ function SearchBar({ placeholder, data }) {
           </div>
           <input
             type="text"
-            placeholder={placeholder}
+            placeholder="Enter Location"
             value={wordEntered}
             onChange={handleFilter}
           />
@@ -94,7 +94,7 @@ function SearchBar({ placeholder, data }) {
           </div>
           <input
             type="text"
-            placeholder={placeholder}
+            placeholder="Enter Dr Name"
             value={wordEntered2}
             onChange={handleFilter2}
           />

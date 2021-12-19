@@ -6,11 +6,13 @@ import { SerachBanner5 } from "./SearchBanner5";
 import { SerachBanner6 } from "./SearchBanner6";
 import { SerachBanner7 } from "./SearchBanner7";
 import { Footer } from "./Footer";
+import { Navigation_bar } from "../../components/Navigation_bar";
 
 
 function DrConsultPage() {
   return (
     <div>
+      <Navigation_bar/>
       <SerachBanner />
       <SerachBanner2 />
       <SerachBanner3 />

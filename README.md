@@ -17,7 +17,7 @@ This is a clone of the Practo India App, built with ReactJS, styled-components, 
 
 ---
 
-![Home-Page](https://github.com/jeet101/practo/tree/main/Project-ScreenShots/home.png)
+![Home-Page](https://github.com/jeet101/practo/blob/main/Project-ScreenShots/home.PNG)
 
 ---
 
